@@ -5,20 +5,23 @@
     font-size: 16px;
     border: none;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 ul,ol{
     list-style: none;
 }
 a{
-    text-decoration: none;
-    color: white;
+    text-decoration: none !important; 
+    cursor: pointer;
 }
-html,body{
+
+html,
+body{
     height: 100%;
 }
 .wrapper{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    min-height: 100%;
 }
+
+
