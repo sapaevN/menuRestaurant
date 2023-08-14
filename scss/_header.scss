@@ -1,0 +1,43 @@
+
+.header {
+    margin-bottom: 25px;
+    // .header__content
+    &__content {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(../img/header/restrauntPhoto.jpg) center top / cover no-repeat;
+    }
+    // .header__logo
+    &__logo {
+        margin: 0  15px;
+        border-radius:5px;
+        padding: 5px 15px;
+        border: 1px solid white;
+        color:white;
+    }
+    &__search-form{
+        margin: 0 15px;
+    }
+    &__search-input{
+        background-color: $mainColor;
+        border: 1px solid #fff;
+        color: white;
+        &::placeholder{
+            color: white;
+        }
+        &:active{
+           
+        }
+    }
+    &__searchBtn{
+        color:white;
+        border: 1px solid white;
+        &:hover{
+            background-color: #663300;
+            border: 1px solid #663300;
+        }
+    }
+}
+
