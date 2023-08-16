@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "class": "breakfast",
+        "label": "Breakfast",
+        "url": "./menu-sections/sectionbreakfast.html"
+    },
+    {
+        "id": "2",
+        "class": "soup",
+        "label": "Soup",
+        "url": "./menu-sections/sectionSoup.html"
+    },
+    {
+        "id": "3",
+        "class": "salats",
+        "label": "Salats",
+        "url": "./menu-sections/sectionSalat.html"
+    },
+    {
+        "id": "4",
+        "class": "meat",
+        "label": "Meat",
+        "url": "./menu-sections/sectionMeat.html"
+    }
+]
